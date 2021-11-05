@@ -1,5 +1,5 @@
-import ButtonEntrar from "../component/Home/ButtonEntrar";
-import EsqueceuSenha from "../component/Home/EsqueceuSenha";
+import ButtonEntrar from "../component/Home/ButtonEntrar.jsx";
+import EsqueceuSenha from "../component/Home/EsqueceuSenha.jsx";
 import '../style/home.css'
 import Img1 from '../media/img1.png'
 
