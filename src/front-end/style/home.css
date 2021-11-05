@@ -91,16 +91,15 @@
   background-color: #f3906c;
 }
 
-#acessar h3 {
+#acessar a {
   color: white;
   font-family: 'Lato', sans-serif;
   font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
-  width: 200px;
 }
 
-#acessar h3:hover {
+#acessar a:hover {
   text-decoration: underline;
   cursor: pointer;
 }

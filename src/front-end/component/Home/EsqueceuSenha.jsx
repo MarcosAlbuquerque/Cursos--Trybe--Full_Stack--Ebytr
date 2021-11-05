@@ -1,5 +1,5 @@
 function EsqueceuSenha() {
-  return <h3>Não consigo acessar minha conta</h3>
+  return <a href="/#">Não consigo acessar minha conta</a>
 }
 
 export default EsqueceuSenha;

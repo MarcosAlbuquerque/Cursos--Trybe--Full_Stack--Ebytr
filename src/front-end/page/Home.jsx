@@ -15,15 +15,15 @@ function Home() {
           <h1>Faça o login na sua conta</h1>
           <form action="/action_page">
             <div>
-              <label>Login *</label>
+              <label htmlFor="login">Login *</label>
               <br />
-              <input type="text"></input>
+              <input type="text" id="login"></input>
             </div>
             <br />
             <div>
-              <label>Senha *</label>
+              <label htmlFor="password">Senha *</label>
               <br />
-              <input type="password"></input>
+              <input type="password" id="password"></input>
             </div>
             <div id="acessar">
               <ButtonEntrar/>
