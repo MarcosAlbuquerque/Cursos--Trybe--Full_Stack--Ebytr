@@ -1,0 +1,106 @@
+@import './root.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ruda&display=swap');
+
+#home {
+  display: flex;
+  background-color: white;
+  width: 1152px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+
+#logomarca {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size:  42px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+
+
+#menulogin {
+  background-color: var(--color2-hex);
+  width: inherit;
+  margin: 5px;
+  border: 2px;
+  padding: 0 51px;
+}
+
+#menulogin section h1 {
+  font-family: 'Ruda', sans-serif;
+  color: white;
+  font-size: 36px;
+  font-weight: lighter;
+  width: 214px;
+}
+
+#menulogin label {
+  font-family: 'Ruda', sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+#menulogin input[type="text"], #menulogin input[type="password"] {
+  height: 50px;
+  border: 3px solid white ;
+  border-radius: 9px;
+  background-color: #E5E5E5;
+}
+#menulogin input[type="text" i] {
+  background-image: url('../media/userButtonLogin.png');
+}
+
+#menulogin input[type="password" i] {
+  background-image: url('../media/passButtonLogin.png');
+}
+
+#menulogin input[type="text" i], #menulogin input[type="password" i] {
+  font-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 300px 10px;
+}
+
+#menulogin form div {
+  padding: 0 0 50px 0;
+}
+
+#acessar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items:center;
+}
+
+#acessar input[type="submit"] {
+  width: 141px;
+  height: 55px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: var(--color3-hex);
+  border: 3px solid white;
+  font-family: 'Ruda', sans-serif;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+#acessar input[type="submit"]:hover {
+  background-color: #f3906c;
+}
+
+#acessar h3 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+#acessar h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

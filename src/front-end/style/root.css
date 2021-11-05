@@ -1,0 +1,24 @@
+/* Paleta: https://color.adobe.com/pt/color%20theme_Decora%C3%A7%C3%A3o-preta-e-laranja-color-theme-17760608 */
+:root {
+  --color1-hex: #D5C6BC;
+  --color2-hex: #333939;
+  --color3-hex: #F25116;
+  --color4-hex: #5B0B0C;
+  --color5-hex: #00070A;
+}
+
+/* centralização: https://qastack.com.br/programming/6464592/how-to-align-entire-html-body-to-the-center */
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: var(--color1-hex);
+}
