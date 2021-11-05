@@ -21,6 +21,10 @@
   text-transform: uppercase;
 }
 
+#logomarca img {
+  width: 684px;
+  height:359px;
+}
 
 #menulogin {
   background-color: var(--color2-hex);
@@ -97,6 +101,7 @@
   font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 #acessar a:hover {
