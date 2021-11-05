@@ -10,7 +10,8 @@ no canto superior direito, em seguida clique no menu "Interação do usuário" e
 ## Como instalar
 Digite o comando no terminal `git clone https://github.com/MarcosAlbuquerque/Ebytr.git`
 
-Após instalar navegue até a pasta Ebytr usando o comando `cd Ebytr`, em seguida digite `npm start`
+Após fazer o download dos arquivos do projeto, navegue até a pasta Ebytr usando o comando `cd Ebytr`,
+instale as depedências com `npm install`, após instalar digite `npm start`
 para iniciar o projeto.
 
 Abra [http://localhost:3000](http://localhost:3000) para visualizar no seu navegador caso não seja aberto automaticamente.
