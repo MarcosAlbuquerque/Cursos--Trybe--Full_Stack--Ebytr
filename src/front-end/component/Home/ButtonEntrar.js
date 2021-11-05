@@ -1,6 +1,6 @@
 function ButtonEntrar() {
   return (
-    <button type="submit">Entrar</button>
+    <input type="submit" value="Entrar"/>
   )
 }
 
